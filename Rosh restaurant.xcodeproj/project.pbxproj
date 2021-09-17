@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1D4DE32619F36400FD990E /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D4DE22619F36400FD990E /* CategoryButton.swift */; };
+		FC1D4DE62619FE0300FD990E /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D4DE52619FE0300FD990E /* MealView.swift */; };
+		FC22DE50260A83AE00984F83 /* QuantityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC22DE4F260A83AE00984F83 /* QuantityButton.swift */; };
+		FC3C1306260A2FAA00EE8D18 /* RaytingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C1305260A2FAA00EE8D18 /* RaytingView.swift */; };
+		FC3C1309260A409700EE8D18 /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C1308260A409700EE8D18 /* LikeButton.swift */; };
+		FC46B259261A474700E70969 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B258261A474700E70969 /* Meal.swift */; };
+		FC46B25C261A481100E70969 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46B25B261A481100E70969 /* Pizza.swift */; };
+		FC4A98952607D50000448141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A98942607D50000448141 /* AppDelegate.swift */; };
+		FC4A98972607D50000448141 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A98962607D50000448141 /* SceneDelegate.swift */; };
+		FC4A989C2607D50000448141 /* Rosh_restarant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC4A989A2607D50000448141 /* Rosh_restarant.xcdatamodeld */; };
+		FC4A989E2607D50200448141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A989D2607D50200448141 /* Assets.xcassets */; };
+		FC4A98A12607D50200448141 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4A98A02607D50200448141 /* Preview Assets.xcassets */; };
+		FC4A98A42607D50200448141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4A98A22607D50200448141 /* LaunchScreen.storyboard */; };
+		FC4A98AD26087B7F00448141 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A98AC26087B7F00448141 /* DetailView.swift */; };
+		FC81092A2624B86100C668B8 /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8109292624B86100C668B8 /* All.swift */; };
+		FC9C6FD3262C444200DB9AD0 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C6FD2262C444200DB9AD0 /* SearchBar.swift */; };
+		FCB868A7260E75660083A0C1 /* MenueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB868A6260E75660083A0C1 /* MenueView.swift */; };
+		FCCC97D3262067CD00D4C015 /* Burgers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCC97D2262067CD00D4C015 /* Burgers.swift */; };
+		FCCC97DF2622E09600D4C015 /* Desetrts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCC97DE2622E09600D4C015 /* Desetrts.swift */; };
+		FCD1D22026178ECD004A11E1 /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1D21F26178ECD004A11E1 /* CategoryData.swift */; };
+		FCD1D22326178F0B004A11E1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1D22226178F0B004A11E1 /* Category.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC1D4DE22619F36400FD990E /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		FC1D4DE52619FE0300FD990E /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		FC22DE4F260A83AE00984F83 /* QuantityButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityButton.swift; sourceTree = "<group>"; };
+		FC3C1305260A2FAA00EE8D18 /* RaytingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaytingView.swift; sourceTree = "<group>"; };
+		FC3C1308260A409700EE8D18 /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		FC46B258261A474700E70969 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		FC46B25B261A481100E70969 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		FC4A98912607D50000448141 /* Rosh restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rosh restaurant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4A98942607D50000448141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC4A98962607D50000448141 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC4A989B2607D50000448141 /* Rosh_restarant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rosh_restarant.xcdatamodel; sourceTree = "<group>"; };
+		FC4A989D2607D50200448141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4A98A02607D50200448141 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC4A98A32607D50200448141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC4A98A52607D50200448141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4A98AC26087B7F00448141 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FC8109292624B86100C668B8 /* All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
+		FC9C6FD2262C444200DB9AD0 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FCB868A6260E75660083A0C1 /* MenueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenueView.swift; sourceTree = "<group>"; };
+		FCCC97D2262067CD00D4C015 /* Burgers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burgers.swift; sourceTree = "<group>"; };
+		FCCC97DE2622E09600D4C015 /* Desetrts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desetrts.swift; sourceTree = "<group>"; };
+		FCD1D21F26178ECD004A11E1 /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
+		FCD1D22226178F0B004A11E1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4A988E2607D50000448141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC46B256261A471000E70969 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1D21F26178ECD004A11E1 /* CategoryData.swift */,
+				FCD1D22226178F0B004A11E1 /* Category.swift */,
+				FC46B258261A474700E70969 /* Meal.swift */,
+				FC46B25B261A481100E70969 /* Pizza.swift */,
+				FCCC97D2262067CD00D4C015 /* Burgers.swift */,
+				FCCC97DE2622E09600D4C015 /* Desetrts.swift */,
+				FC8109292624B86100C668B8 /* All.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC4A98882607D50000448141 = {
+			isa = PBXGroup;
+			children = (
+				FC4A98932607D50000448141 /* Rosh restaurant */,
+				FC4A98922607D50000448141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4A98922607D50000448141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A98912607D50000448141 /* Rosh restaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4A98932607D50000448141 /* Rosh restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				FC46B256261A471000E70969 /* Model */,
+				FC9C6FD1262C43FA00DB9AD0 /* View */,
+				FC954804263B1DB00088AF00 /* View Controller */,
+				FC4A98942607D50000448141 /* AppDelegate.swift */,
+				FC4A98962607D50000448141 /* SceneDelegate.swift */,
+				FC4A989D2607D50200448141 /* Assets.xcassets */,
+				FC4A98A22607D50200448141 /* LaunchScreen.storyboard */,
+				FC4A98A52607D50200448141 /* Info.plist */,
+				FC4A989A2607D50000448141 /* Rosh_restarant.xcdatamodeld */,
+				FC4A989F2607D50200448141 /* Preview Content */,
+			);
+			path = "Rosh restaurant";
+			sourceTree = "<group>";
+		};
+		FC4A989F2607D50200448141 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A98A02607D50200448141 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC954804263B1DB00088AF00 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A98AC26087B7F00448141 /* DetailView.swift */,
+				FCB868A6260E75660083A0C1 /* MenueView.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		FC9C6FD1262C43FA00DB9AD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC22DE4F260A83AE00984F83 /* QuantityButton.swift */,
+				FC3C1308260A409700EE8D18 /* LikeButton.swift */,
+				FC3C1305260A2FAA00EE8D18 /* RaytingView.swift */,
+				FC1D4DE22619F36400FD990E /* CategoryButton.swift */,
+				FC1D4DE52619FE0300FD990E /* MealView.swift */,
+				FC9C6FD2262C444200DB9AD0 /* SearchBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4A98902607D50000448141 /* Rosh restaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4A98A82607D50200448141 /* Build configuration list for PBXNativeTarget "Rosh restaurant" */;
+			buildPhases = (
+				FC4A988D2607D50000448141 /* Sources */,
+				FC4A988E2607D50000448141 /* Frameworks */,
+				FC4A988F2607D50000448141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rosh restaurant";
+			productName = "Rosh restarant";
+			productReference = FC4A98912607D50000448141 /* Rosh restaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4A98892607D50000448141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FC4A98902607D50000448141 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FC4A988C2607D50000448141 /* Build configuration list for PBXProject "Rosh restaurant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4A98882607D50000448141;
+			productRefGroup = FC4A98922607D50000448141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4A98902607D50000448141 /* Rosh restaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4A988F2607D50000448141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4A98A42607D50200448141 /* LaunchScreen.storyboard in Resources */,
+				FC4A98A12607D50200448141 /* Preview Assets.xcassets in Resources */,
+				FC4A989E2607D50200448141 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4A988D2607D50000448141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC46B259261A474700E70969 /* Meal.swift in Sources */,
+				FC1D4DE62619FE0300FD990E /* MealView.swift in Sources */,
+				FC22DE50260A83AE00984F83 /* QuantityButton.swift in Sources */,
+				FC4A98952607D50000448141 /* AppDelegate.swift in Sources */,
+				FC4A98972607D50000448141 /* SceneDelegate.swift in Sources */,
+				FC9C6FD3262C444200DB9AD0 /* SearchBar.swift in Sources */,
+				FC4A989C2607D50000448141 /* Rosh_restarant.xcdatamodeld in Sources */,
+				FC81092A2624B86100C668B8 /* All.swift in Sources */,
+				FCD1D22326178F0B004A11E1 /* Category.swift in Sources */,
+				FCCC97DF2622E09600D4C015 /* Desetrts.swift in Sources */,
+				FC4A98AD26087B7F00448141 /* DetailView.swift in Sources */,
+				FC46B25C261A481100E70969 /* Pizza.swift in Sources */,
+				FCCC97D3262067CD00D4C015 /* Burgers.swift in Sources */,
+				FC3C1306260A2FAA00EE8D18 /* RaytingView.swift in Sources */,
+				FCD1D22026178ECD004A11E1 /* CategoryData.swift in Sources */,
+				FC1D4DE32619F36400FD990E /* CategoryButton.swift in Sources */,
+				FCB868A7260E75660083A0C1 /* MenueView.swift in Sources */,
+				FC3C1309260A409700EE8D18 /* LikeButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC4A98A22607D50200448141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4A98A32607D50200448141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC4A98A62607D50200448141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC4A98A72607D50200448141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4A98A92607D50200448141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rosh restaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J9XRFD286;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rosh restaurant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Abdulloh.Rosh-restaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC4A98AA2607D50200448141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rosh restaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J9XRFD286;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rosh restaurant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Abdulloh.Rosh-restaurant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4A988C2607D50000448141 /* Build configuration list for PBXProject "Rosh restaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A98A62607D50200448141 /* Debug */,
+				FC4A98A72607D50200448141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4A98A82607D50200448141 /* Build configuration list for PBXNativeTarget "Rosh restaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4A98A92607D50200448141 /* Debug */,
+				FC4A98AA2607D50200448141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC4A989A2607D50000448141 /* Rosh_restarant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC4A989B2607D50000448141 /* Rosh_restarant.xcdatamodel */,
+			);
+			currentVersion = FC4A989B2607D50000448141 /* Rosh_restarant.xcdatamodel */;
+			path = Rosh_restarant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC4A98892607D50000448141 /* Project object */;
+}
